@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.645" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API\target\test-classes;C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API\target\classes;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\AKSHAY K\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AKSHAY K\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\AKSHAY K\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AKSHAY K\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\AKSHAY K\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AKSHAY K\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AKSHAY K\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AKSHAY K\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\AKSHAY K\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\AKSHAY K\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\AKSHAY K\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\AKSHAY K\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\AKSHAY K\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AKSHAY K\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AKSHAY K\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\AKSHAY K\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\AKSHAY K\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AKSHAY K\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\AKSHAY K\AppData\Local\Temp\surefire6538048723154747475\surefirebooter-20241123162201128_3.jar C:\Users\AKSHAY K\AppData\Local\Temp\surefire6538048723154747475 2024-11-23T16-22-00_538-jvmRun1 surefire-20241123162201128_1tmp surefire_0-20241123162201128_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API\target\test-classes;C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API\target\classes;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\AKSHAY K\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AKSHAY K\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\AKSHAY K\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AKSHAY K\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\AKSHAY K\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\AKSHAY K\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AKSHAY K\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AKSHAY K\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\AKSHAY K\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\AKSHAY K\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\AKSHAY K\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\AKSHAY K\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\AKSHAY K\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\AKSHAY K\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\AKSHAY K\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\AKSHAY K\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\AKSHAY K\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\AKSHAY K\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\AKSHAY K\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\AKSHAY K\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\AKSHAY K\.m2\repository\org\json\json\20240303\json-20240303.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AKSHAY K"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AKSHAY K\AppData\Local\Temp\surefire6538048723154747475\surefirebooter-20241123162201128_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="AKSHAY K"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AKSHAY K\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKSHAY~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\AKSHAY K\Documents\Project Workspaces\RestAssuredWorkspace\Poppulo_API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\AKSHAY K\Documents\apache-maven-3.9.9\bin;C:\Users\AKSHAY K\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="getListofall" classname="restfulapi.GetAPITest" time="4.315">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getListofall_Negative" classname="restfulapi.GetAPITest" time="0.233"/>
+  <testcase name="getbyID" classname="restfulapi.GetAPITest" time="0.386">
+    <system-out><![CDATA[HTTP/1.1 200 
+Date: Sat, 23 Nov 2024 10:52:08 GMT
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 28
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3mYavYJJ%2B2qubxH2VF%2BydVgq%2FbXnUddTQ3%2BAsQD7w82cnyYP7pC4fo%2FIsgJF1F4wMlxBqD%2FWrZPkRZgeKuMBixP%2FLaBg8M%2BfPVKxv8mk6xfyX8nDyzFkJHmRt2yQJrsXJwkSP8MN"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e709baa1b1dce09-SIN
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=49798&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3123&recv_bytes=779&delivery_rate=86655&cwnd=181&unsent_bytes=0&cid=10175f48e8352313&ts=147&x=0"
+
+Hello world from Spring Boot
+]]></system-out>
+  </testcase>
+  <testcase name="getcreateduser" classname="restfulapi.GetAPITest" time="0.326">
+    <system-out><![CDATA[{
+    "id": "7",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "7",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduser" classname="restfulapi.NegativeTests" time="1.32">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a689547809",
+    "name": "Karnataka laptops",
+    "createdAt": "2024-11-23T10:52:09.428+00:00",
+    "data": {
+        "year": "twenty nine teen",
+        "price": "twenty five rupees",
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a689547809",
+    "name": "Karnataka laptops",
+    "createdAt": "2024-11-23T10:52:09.428+00:00",
+    "data": {
+        "year": "twenty nine teen",
+        "price": "twenty five rupees",
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduser5" classname="restfulapi.NegativeTests" time="0.336">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a68e4f780a",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:10.703+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9.9999999E7,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a68e4f780a",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:10.703+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9.9999999E7,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduserWithoutName" classname="restfulapi.NegativeTests" time="0.422">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a68fea780b",
+    "name": null,
+    "createdAt": "2024-11-23T10:52:11.114+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a68fea780b",
+    "name": null,
+    "createdAt": "2024-11-23T10:52:11.114+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduser_NegativePrice" classname="restfulapi.NegativeTests" time="0.317">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69147780c",
+    "name": null,
+    "createdAt": "2024-11-23T10:52:11.463+00:00",
+    "data": {
+        "year": 2019,
+        "price": -0.13,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a69147780c",
+    "name": null,
+    "createdAt": "2024-11-23T10:52:11.463+00:00",
+    "data": {
+        "year": 2019,
+        "price": -0.13,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduser_ZeroPriceValue" classname="restfulapi.NegativeTests" time="0.548">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69319780d",
+    "name": "Karnataka laptops",
+    "createdAt": "2024-11-23T10:52:11.929+00:00",
+    "data": {
+        "year": "twenty nine teen",
+        "price": 0,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a69319780d",
+    "name": "Karnataka laptops",
+    "createdAt": "2024-11-23T10:52:11.929+00:00",
+    "data": {
+        "year": "twenty nine teen",
+        "price": 0,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduserwithEmptyDatafield" classname="restfulapi.NegativeTests" time="0.61">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a6956f780e",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:12.527+00:00",
+    "data": {
+        
+    }
+}
+{
+    "id": "ff808181932badb6019358a6956f780e",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:12.527+00:00",
+    "data": {
+        
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createinvaliduserwithSpecialChar" classname="restfulapi.NegativeTests" time="0.423">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a6975a780f",
+    "name": "Apple MacBook)*(#$)#(",
+    "createdAt": "2024-11-23T10:52:13.018+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9.9999999E7,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a6975a780f",
+    "name": "Apple MacBook)*(#$)#(",
+    "createdAt": "2024-11-23T10:52:13.018+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9.9999999E7,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_NegativePriceValue" classname="restfulapi.NegativeTests" time="0.676">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:13.664+00:00",
+    "data": {
+        "year": 2019,
+        "price": -1023,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:13.664+00:00",
+    "data": {
+        "year": 2019,
+        "price": -1023,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_NotAddingName" classname="restfulapi.NegativeTests" time="0.286">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": null,
+    "updatedAt": "2024-11-23T10:52:14.041+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9999999,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": null,
+    "updatedAt": "2024-11-23T10:52:14.041+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9999999,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_highPriceValue" classname="restfulapi.NegativeTests" time="0.383">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:14.400+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9999999,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+{
+    "id": "ff808181932badb60193583d19f376bf",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:14.400+00:00",
+    "data": {
+        "year": 2019,
+        "price": 9999999,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="addobject" classname="restfulapi.PostTests" time="0.617">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:14.907+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2024-11-23T10:52:14.907+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateobjecttest" classname="restfulapi.PostTests" time="0.451">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:15.400+00:00",
+    "data": {
+        "year": 2019,
+        "price": 2049.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": "2024-11-23T10:52:15.400+00:00",
+    "data": {
+        "year": 2019,
+        "price": 2049.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="patchuser" classname="restfulapi.PostTests" time="0.27">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Kiran laptops",
+    "updatedAt": "2024-11-23T10:52:15.769+00:00",
+    "data": {
+        "year": 2019,
+        "price": 2049.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getcreateduser" classname="restfulapi.PostTests" time="0.446">
+    <system-out><![CDATA[{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Kiran laptops",
+    "data": {
+        "year": 2019,
+        "price": 2049.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+{
+    "id": "ff808181932badb6019358a69ebb7810",
+    "name": "Kiran laptops",
+    "data": {
+        "year": 2019,
+        "price": 2049.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB",
+        "color": "silver"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteuser" classname="restfulapi.PostTests" time="0.459"/>
+</testsuite>
